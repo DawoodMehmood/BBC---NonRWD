@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: rgb(83, 83, 83);
+    font-family: sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: black;
+    margin-bottom: 70px;
+}
+
+.mainheader {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainheader .logo {
+    margin-left: 50px;
+}
+
+.mainheader .logo p{
+    padding: 2px 5px;
+    margin: 3px;
+    font-size: 26px;
+    font-weight: 700;
+    color: black;
+    display: inline;
+    background-color: azure;
+}
+
+.mainheader nav {
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mainheader nav a{
+    text-decoration: none;
+    color: azure;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+button {
+    width: 130px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    color: azure;
+    background-color: #242424;
+}
+
+.vl {
+    border-left: 1px solid grey;
+    height: 25px;
+}
+
+input {
+    width: 230px;
+    padding: 12px 12px;
+    background-color: #242424;
+    border: none;
+    color: azure;
+}
+
+.search-bar {
+    margin-right: 50px;
+}
+
+::placeholder {
+    color: azure;
+    font-weight: 700;
+}
+
+main {
+    margin: 0 50px;
+}
+
+.greeting {
+    float: left;
+}
+
+.date {
+    float: right;
+    color: grey;
+}
+
+.date p {
+    font-size: 24px;
+}
+
+.clear {
+    clear: both;
+}
+
+.stories,.sports {
+    margin-top: 30px;  
+}
+
+.stories .small {
+    float: right;
+}
+
+.stories .large {
+    float: left;
+}
+
+.stories .mid{
+    margin-right: 10px;
+}
+
+.stories .bottom{
+    margin-top: 5px;
+} 
+
+.stories .small img {
+    width: 310px;
+    height: 170px;
+}
+
+.stories .large img {
+    width: 605px;
+    height: 350px;
+}
+
+
+.startline {
+    border-left: 3px solid red;
+    height: 25px;
+    margin-top: 135px;
+}
+
+.block-top,.block-showbiz {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+.block-top .first,.middle,.last {
+    width: 400px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 200px;
+}
+
+.block-showbiz .first,.middle,.last {
+    width: 400px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 200px;
+}
+
+.block-top .first {
+    background-image: url(https://www.geo.tv/assets/uploads/updates/2022-10-02/l_443824_114901_updates.jpg);
+}
+
+.block-top .middle {
+    background-image: url(https://www.geo.tv/assets/uploads/updates/2022-10-01/l_443748_084821_updates.jpg);
+}
+
+.block-top .last {
+    background-image: url(https://www.geo.tv/assets/uploads/updates/2022-10-02/l_443886_063058_updates.jpg);
+}
+
+.midline {
+    border-left: 3px solid red;
+    height: 15px;
+    font-size: 14px;
+}
+
+.block-showbiz .first {
+    background-image: url(https://www.geo.tv/assets/uploads/updates/2022-10-09/445219_9696011_updates.jpg);
+}
+
+.block-showbiz .middle {
+    background-image: url(https://ichef.bbci.co.uk/news/976/cpsprodpb/1805B/production/_124959389_8bc29586-7678-4c76-b3eb-5a1a48ff8c77.jpg);
+}
+
+.block-showbiz .last {
+    background-image: url(https://www.geo.tv/assets/uploads/updates/2022-10-01/443753_1317772_updates.jpg);
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: #5c5c5c;
+}
+
+footer h3 {
+    color: azure;
+    margin-top: 20px;
+    padding: 15px 0 0 50px;
+}
+
+footer .contain {
+    margin: 10px 20px 0 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .contain a{
+    text-decoration: none;
+    color: azure;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+hr,.copyright {
+    margin: 0 50px;
+}
+
+.copyright {
+    color: azure;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+
+.sports .small {
+    float: left;
+}
+
+.sports .large {
+    float: right;
+}
+
+.sports .first{
+    margin-right: 10px;
+}
+
+.sports .bottom{
+    margin-top: 5px;
+} 
+
+.sports .small img {
+    width: 310px;
+    height: 170px;
+}
+
+.sports .large img {
+    width: 605px;
+    height: 350px;
+}
